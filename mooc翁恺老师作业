@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int i,a,b;
+scanf("%d",&i);
+a=i/100;
+b=i%10;
+	printf("%d\n",i-a*100-b+b*100+a);
+		return 0;}
