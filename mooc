@@ -1,0 +1,13 @@
+// 奇偶分离
+        int a;
+	scanf("%d", &a);
+	
+	int b;
+	for(b=1;b<=a;b+=2)
+	{
+		printf("%d", b);
+		
+		if (b<a-1) //末位没有空格，其他两两空格
+		{
+			printf(" ");
+		}
